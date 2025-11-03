@@ -3,71 +3,148 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kayenat Zaidi | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Kayenat Zaidi — Portfolio</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      max-width: 800px;
+      margin: 80px auto 40px;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #0b3954;
+    }
+
+    header p {
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      color: #0b3954;
+      margin-bottom: 15px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    a:hover {
+      border-color: #0077cc;
+    }
+
+    .highlight {
+      color: #0077cc;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    .project {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-4px);
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Kayenat Zaidi</h1>
-      <p>Grade 12 Student | Aspiring Software Engineer | Western Canada High School</p>
-    </div>
+    <h1>Kayenat Zaidi</h1>
+    <p>Grade 12 Student · Western Canada High School · Graduating June 2026</p>
+    <p>Aspiring <span class="highlight">Software Engineering</span> undergraduate (Fall 2026)</p>
   </header>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm <strong>Kayenat Zaidi</strong>, a passionate high school student who loves creating, coding, and solving problems. 
+      I enjoy turning ideas into real projects through programming, web development, and creative design. 
+      My dream is to study <strong>Software Engineering</strong> and build technology that helps people in meaningful ways.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects & Experience</h2>
+    <div class="project">
+      <h3>GitHub Portfolio</h3>
       <p>
-        Hi! I’m <strong>Kayenat Zaidi</strong>, a Grade 12 student at Western Canada High School, graduating in June 2026.
-        I’m passionate about <strong>software development</strong>, creative problem-solving, and building meaningful projects.
-        My goal is to pursue <strong>Software Engineering</strong> in Fall 2026 and continue growing as a developer.
+        You can explore my coding journey, school projects, and experiments on my GitHub profile.
+      </p>
+      <p>
+        🔗 <a href="https://github.com/codekayenat" target="_blank">github.com/codekayenat</a>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Web Design Explorations</h3>
+      <p>
+        I’ve been learning HTML, CSS, and JavaScript to design interactive and user-friendly web pages.
+        This portfolio itself is a part of my self-learning journey.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Creative Coding Challenges</h3>
+      <p>
+        I enjoy participating in small coding challenges and exploring how code can express creativity —
+        from animations to interactive stories.
       </p>
     </div>
   </section>
 
-  <section id="projects">
-    <div class="container">
-      <h2>My Projects</h2>
-      <p>Here are some of my projects on <a href="https://github.com/codekayenat" target="_blank">GitHub</a> 👇</p>
-      <div class="project-list">
-        <div class="project">
-          <h3>Weather App</h3>
-          <p>A simple weather forecast app using an API to show real-time data.</p>
-        </div>
-        <div class="project">
-          <h3>Portfolio Website</h3>
-          <p>My first responsive website built with HTML, CSS, and a love for clean design.</p>
-        </div>
-        <div class="project">
-          <h3>To-Do List</h3>
-          <p>An interactive web app for managing daily tasks efficiently.</p>
-        </div>
-      </div>
-    </div>
+  <section>
+    <h2>Education</h2>
+    <p>
+      🎓 <strong>Western Canada High School</strong> — Grade 12 <br />
+      Calgary, Alberta <br />
+      Expected Graduation: <strong>June 2026</strong>
+    </p>
   </section>
 
-  <section id="goals">
-    <div class="container">
-      <h2>My Goals</h2>
-      <p>
-        I’m currently improving my coding skills in <strong>Python, HTML, CSS, and JavaScript</strong>.
-        My next step is to work on real-world applications and contribute to open-source projects.
-      </p>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>
-        📧 Email: <a href="mailto:kayenatzaidi@gmail.com">kayenatzaidi@gmail.com</a><br>
-        💻 GitHub: <a href="https://github.com/codekayenat" target="_blank">github.com/codekayenat</a>
-      </p>
-    </div>
+  <section>
+    <h2>Contact</h2>
+    <p>
+      I’d love to connect with professors, mentors, and fellow learners! <br>
+      📧 <a href="mailto:kayenat@example.com">kayenat@example.com</a> <br>
+      🌐 <a href="https://github.com/codekayenat" target="_blank">GitHub</a>
+    </p>
   </section>
 
   <footer>
-    <p>© 2025 Kayenat Zaidi | Built with ❤️ and curiosity</p>
+    <p>© 2025 Kayenat Zaidi. Built with 💻 and creativity.</p>
   </footer>
 </body>
 </html>
