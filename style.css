@@ -45,43 +45,6 @@ p {
   margin-bottom: 1rem;
 }
 
-.project-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
-.project {
-  background: #fff;
-  border: 1px solid #f0c6db;
-  border-radius: 10px;
-  padding: 1rem;
-  width: 30%;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
-}
-
-.project:hover {
-  transform: translateY(-5px);
-  background-color: #fff0f7;
-}
-
-#contact a {
-  color: #d45ba0;
-  text-decoration: none;
-}
-
-#contact a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  background-color: #ffe4ec;
-  padding: 1rem;
-  margin-top: 2rem;
-  font-size: 0.9rem;
-}
 /* =========================
    Mobile & Tablet Responsive
    ========================= */
@@ -129,6 +92,45 @@ footer {
   footer {
     font-size: 0.8rem;
   }
+}
+
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.project {
+  background: #fff;
+  border: 1px solid #f0c6db;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 30%;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  background-color: #fff0f7;
+}
+
+#contact a {
+  color: #d45ba0;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffe4ec;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
 }
 
 
