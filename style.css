@@ -67,10 +67,11 @@ p {
     font-size: 1rem;
   }
 
+ 
   .container {
-    width: 92%;
-    margin: 1.5rem auto;
-  }
+  width: min(92%, 1200px);
+  margin: 1.5rem auto;
+}
 
   .project-list {
     flex-direction: column;
@@ -111,7 +112,10 @@ p {
   border: 1px solid #f0c6db;
   border-radius: 10px;
   padding: 1rem;
-  width: 30%;
+ 
+  flex: 1 1 280px;
+  width: 100%;
+}
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
 }
